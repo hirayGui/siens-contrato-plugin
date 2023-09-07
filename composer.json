@@ -1,0 +1,17 @@
+{
+    "name": "gizo/siens-contrato-plugin",
+    "description": "Plugin que checa vendas registradas no Siens e puxa suas informações para gerar um contrato digital",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "hiraygui",
+            "email": "hiraygui@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}, 
+    "autoload": {
+        "psr-4": {"Inc\\": "./includes"}
+    }
+}
